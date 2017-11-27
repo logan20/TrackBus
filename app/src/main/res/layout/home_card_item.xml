@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_card"
+        card_view:cardBackgroundColor="@color/colorCards"
+        card_view:cardCornerRadius="16dp"
+        card_view:contentPadding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/iv_image"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/originheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Origin:"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/destinatinoheader" />
+
+                <TextView
+                    android:id="@+id/destinatinoheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:text="Destination:"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvdeparttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:text="Depart Time:"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/originheader" />
+
+                <TextView
+                    android:id="@+id/tveta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="ETA:"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/tvdeparttime" />
+
+                <TextView
+                    android:id="@+id/tv_departed_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="erehjwk"
+                    card_view:layout_constraintBottom_toBottomOf="@+id/originheader"
+                    card_view:layout_constraintStart_toEndOf="@+id/originheader"
+                    card_view:layout_constraintTop_toTopOf="@+id/originheader" />
+
+                <TextView
+                    android:id="@+id/tv_departed_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="erehjwk"
+                    card_view:layout_constraintBottom_toBottomOf="@+id/tvdeparttime"
+                    card_view:layout_constraintStart_toEndOf="@+id/tvdeparttime"
+                    card_view:layout_constraintTop_toTopOf="@+id/tvdeparttime" />
+
+                <TextView
+                    android:id="@+id/tv_destination_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="erehjwk"
+                    card_view:layout_constraintBottom_toBottomOf="@+id/destinatinoheader"
+                    card_view:layout_constraintStart_toEndOf="@+id/destinatinoheader"
+                    card_view:layout_constraintTop_toTopOf="@+id/destinatinoheader" />
+
+                <TextView
+                    android:id="@+id/tv_eta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="erehjwk"
+                    card_view:layout_constraintBottom_toBottomOf="@+id/tveta"
+                    card_view:layout_constraintStart_toEndOf="@+id/tveta"
+                    card_view:layout_constraintTop_toTopOf="@+id/tveta" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

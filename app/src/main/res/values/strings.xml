@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TrackBus</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_login">Login</string>
+    <string name="facebook_app_id">1918094281850515</string>
+    <string name="fb_login_protocol_scheme">1918094281850515</string>
+    <string name="prompt_register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="event_type_header">Event type</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_search">Search</string>
+
+
+    <string-array name="bus_event_values">
+        <item>Bus Arrival</item>
+        <item>Bus Departure</item>
+    </string-array>
+
+    <string-array name="location_values">
+        <item>King\'s Wharf</item>
+        <item>Cross Crossing</item>
+        <item>Mon Repos</item>
+        <item>Gasparillo</item>
+        <item>Claxton Bay</item>
+        <item>Preysal</item>
+        <item>Freeport</item>
+        <item>Chaguanas</item>
+        <item>Mount Hope</item>
+        <item>Curepe</item>
+        <item>UWI</item>
+    </string-array>
+
+    <string-array name="destination_values">
+        <item>King\'s Wharf</item>
+        <item>UWI</item>
+    </string-array>
+
+    <string-array name="latlong_values_sando_uwi">
+        <item>10.2830615,-61.4683674</item>
+        <item>10.2667908,-61.460694</item>
+        <item>10.2794519,-61.4482395</item>
+        <item>10.3161396,-61.4317659</item>
+        <item>10.3665572,-61.4232618</item>
+        <item>10.4176416,-61.4156536</item>
+        <item>10.4612703,-61.4089448</item>
+        <item>10.5148001,-61.4065809</item>
+        <item>10.6507481,-61.4227527</item>
+        <item>10.6498803,-61.4089492</item>
+        <item>10.6454874,-61.400994</item>
+    </string-array>
+
+    <string-array name="latlong_values_uwi_sando">
+        <item>10.2830615,-61.4683674</item>
+        <item>10.265556,-61.460601</item>
+        <item>10.2785144,-61.44918</item>
+        <item>10.3156178,-61.4297186</item>
+        <item>10.3659157,-61.4208188</item>
+        <item>10.4166872,-61.4147235</item>
+        <item>10.4610782,-61.4060457</item>
+        <item>10.516619,-61.4056917</item>
+        <item>10.6489924,-61.4237333</item>
+        <item>10.650252,-61.4107519</item>
+        <item>10.6454874,-61.400994</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>
